@@ -1,20 +1,26 @@
 "use strict"
-console.log('hello world')
+
 
 const id = document.querySelector('#id')
-const psword = document.querySelector('#sword')
-const loginBtn = document.querySelector('#loginBtn')
+const psword = document.querySelector('#psword')
+const loginBtn = document.querySelector('button')
+console.log('hello world',loginBtn)
 
-loginBtn.addEventListener('click',login);
+loginBtn.addEventListener("click",login);
 
-function login() {  
+ function login() {  
     const req ={
-        id: id.ariaValueMax,
+        id: id.value,
         psword: psword.value
         };
+
     fetch("/login",{
         method: "POST",
-        bodu:JSON.stringify(req)
-    })
-    }
+        headers: {  
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(req),
+    });
+
+}
 
