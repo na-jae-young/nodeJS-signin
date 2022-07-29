@@ -1,7 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+# ** -> 모든폴더를 다 검색해서 node_modules 를 업로드 안되게 한다. 
+**node_modules    
 /.pnp
 .pnp.js
 
@@ -16,7 +17,7 @@
 .env.local
 .env.development.local
 .env.test.local
-.env.production.local
+.env.production.localb 
 
 npm-debug.log*
 yarn-debug.log*
