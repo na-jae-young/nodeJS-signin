@@ -6,7 +6,9 @@ app.set('views', "../src/views")
 app.set("view engine", "ejs");
 
 const home = require('./routes/home');
+app.use(express.static(`${__dirname}/public`)); //정적경로 
 app.use('/',home)
+
 
 module.exports = app;
 
