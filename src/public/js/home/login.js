@@ -20,7 +20,22 @@ loginBtn.addEventListener("click",login);
             "Content-Type": "application/json",
         },
         body: JSON.stringify(req),
+    })
+    .then(res => res.json())
+    .then(res => {
+        if(res.success) {
+            location.href = "/";
+            } else {
+                console.log(res.message);
+
+                alert(res.message);
+            }
+        }
+        )
+    .catch(err => {
+        console.error("error");
     });
 
+            
 }
 
