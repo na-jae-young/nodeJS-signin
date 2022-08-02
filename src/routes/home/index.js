@@ -8,7 +8,9 @@ const ctrl = require("./home.ctrl");
 router.get('/', ctrl.output.home)   //get 접속했을때 
 router.get('/login', ctrl.output.login)
 router.get('/register', ctrl.output.register)
-router.post('/login',ctrl.process.login)  
+
+router.post('/login',ctrl.process.login) 
+router.post('/register', ctrl.process.register) 
 //post 데이터 들어왔을때 req를 받아서 process.login 실행해서 res 반환
 
 

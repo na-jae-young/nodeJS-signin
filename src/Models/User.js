@@ -8,7 +8,7 @@ class User {
     }
     login(){
         const body = this.body
-        const {id,psword} = UserStorage.getUserInfo(this.body.id);
+        const {id,psword} = UserStorage.getUserInfo(body.id);
         if(id){
             if(id === body.id && psword === body.psword){
                 return {success: true}
@@ -16,7 +16,11 @@ class User {
             return {success: false , message: 'Login failed : password error'};
         }
         return {success: false,message: 'Login failed : id error'};
-    
+    }
+    register(){
+        const client = this.body
+        const response = UserStorage.save(client);
+        return response
     }
 
 }

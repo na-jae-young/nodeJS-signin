@@ -11,10 +11,12 @@ console.log('hello world',reisterBtn)
 reisterBtn.addEventListener("click",register);
 
  function register() {  
+    if(!id.value) return alert('id error');
+    if(psword.value !== confirmPsword.value) return alert('password error');
+
     const req ={
         id: id.value,
         psword: psword.value,
-        confirmPsword: confirmPsword.value,
         name: name.value,
     };
 
@@ -40,10 +42,7 @@ reisterBtn.addEventListener("click",register);
 
             
 }
-s
-d
-s
-s
+
 
 
 
