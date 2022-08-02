@@ -3,18 +3,22 @@
 
 const id = document.querySelector('#id')
 const psword = document.querySelector('#psword')
-const loginBtn = document.querySelector('#button')
-console.log('hello world',loginBtn)
+const confirmPsword = document.querySelector('#confirm-psword')
+const name = document.querySelector('#name')
+const reisterBtn = document.querySelector('#button')
+console.log('hello world',reisterBtn)
 
-loginBtn.addEventListener("click",login);
+reisterBtn.addEventListener("click",register);
 
- function login() {  
+ function register() {  
     const req ={
         id: id.value,
-        psword: psword.value
-        };
+        psword: psword.value,
+        confirmPsword: confirmPsword.value,
+        name: name.value,
+    };
 
-    fetch("/login",{
+    fetch("/register",{
         method: "POST",
         headers: {  
             "Content-Type": "application/json",
@@ -24,9 +28,8 @@ loginBtn.addEventListener("click",login);
     .then(res => res.json())
     .then(res => {
         if(res.success) {
-            location.href = "/";
+            location.href = "/login";
             } else {
-                console.log(res.message);
                 alert(res.message);
             }
         }
@@ -37,4 +40,12 @@ loginBtn.addEventListener("click",login);
 
             
 }
+s
+d
+s
+s
+
+
+
+//ctrl + D 같은 것들 선택  Change all occurences
 
