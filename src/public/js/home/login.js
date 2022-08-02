@@ -27,7 +27,6 @@ loginBtn.addEventListener("click",login);
             location.href = "/";
             } else {
                 console.log(res.message);
-
                 alert(res.message);
             }
         }
