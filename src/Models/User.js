@@ -1,4 +1,6 @@
 "use strict"
+
+//await  는 항상 promise를 반환하는 애 앞에 , async(비동기) 함수 안에서 사용된다. 
 const UserStorage = require("./UserStorage")
 class User {
     constructor(body){
@@ -6,9 +8,9 @@ class User {
         this.user = new UserStorage(body)
 
     }
-    login(){
+    async login(){
         const body = this.body
-        const {id,psword} = UserStorage.getUserInfo(body.id);
+        const {id,psword} = await UserStorage.getUserInfo(body.id)
         if(id){
             if(id === body.id && psword === body.psword){
                 return {success: true}
@@ -20,8 +22,8 @@ class User {
     register(){
         const client = this.body
         const response = UserStorage.save(client);
-        return response
-    }
+        return response;
+     }
 
 }
 module.exports = User
