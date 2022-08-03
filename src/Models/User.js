@@ -19,11 +19,15 @@ class User {
         }
         return {success: false,message: 'Login failed : id error'};
     }
-    register(){
-        const client = this.body
-        const response = UserStorage.save(client);
-        return response;
-     }
 
+    async register(){
+        const client = this.body
+        try{
+            const response = await UserStorage.save(client);
+            return response;
+        }catch(err){
+            return {success: false,message: err}
+        }
+     }
 }
 module.exports = User
