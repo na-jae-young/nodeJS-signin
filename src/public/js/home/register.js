@@ -38,9 +38,7 @@ reisterBtn.addEventListener("click",register);
         )
     .catch(err => {
         console.error("error");
-    });
-
-            
+    });       
 }
 
 

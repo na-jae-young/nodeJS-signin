@@ -10,14 +10,18 @@ class User {
     }
     async login(){
         const body = this.body
-        const {id,psword} = await UserStorage.getUserInfo(body.id)
-        if(id){
-            if(id === body.id && psword === body.psword){
-                return {success: true}
+        try{
+            const {id,psword} = await UserStorage.getUserInfo(body.id)
+            if(id){
+                if(id === body.id && psword === body.psword){
+                    return {success: true}
+                }
+                return {success: false , message: 'Login failed : 틀린 password error'};
             }
-            return {success: false , message: 'Login failed : password error'};
+            return {success: false, message: 'Login failed : 존재하지 않는 id error'};
+        } catch(err){
+            return {success: false, message: err};
         }
-        return {success: false,message: 'Login failed : id error'};
     }
 
     async register(){
