@@ -1,7 +1,7 @@
 "use strict"
 
-const { setDefaultResultOrder } = require("dns")
-const UserStorage = require("../../Models/UserStorage")
+
+
 const User = require('../../Models/User')
 //UserStorage 의 user 를 static 으로 설정하면 바로 class 에서 불러 사용할수 있다.
 //static 아닐시  const 변수 = UserStorage    , UserStorage.user 로 변수에 넣어서 사용 
