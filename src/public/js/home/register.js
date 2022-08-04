@@ -6,13 +6,13 @@ const psword = document.querySelector('#psword')
 const confirmPsword = document.querySelector('#confirm-psword')
 const name = document.querySelector('#name')
 const reisterBtn = document.querySelector('#button')
-console.log('hello world',reisterBtn)
+
 
 reisterBtn.addEventListener("click",register);
 
  function register() {  
-    if(!id.value) return alert('id error');
-    if(psword.value !== confirmPsword.value) return alert('password error');
+    if(!id.value) return alert('id error id없음');
+    if(psword.value !== confirmPsword.value) return alert('password error 비밀번호 확인');
 
     const req ={
         id: id.value,

@@ -1,0 +1,6 @@
+[0mPOST /login [32m200[0m 8.586 ms - 73[0m
+[0mGET /register [36m304[0m 22.886 ms - -[0m
+[0mGET /login [32m200[0m 7.931 ms - 816[0m
+::1 - - [04/Aug/2022:05:38:06 +0000] "POST /login HTTP/1.1" 200 73
+::1 - - [04/Aug/2022:05:38:10 +0000] "GET /register HTTP/1.1" 304 -
+::1 - - [04/Aug/2022:05:38:12 +0000] "GET /login HTTP/1.1" 200 816

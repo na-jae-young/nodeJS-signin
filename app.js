@@ -4,11 +4,27 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
+const morgan = require('morgan');
+const fs = require('fs');
 dotenv.config();
 const app = express();
 
 //라우팅
 const home = require('./src/routes/home');
+
+
+//로그관리
+//morgan
+const accessLogStream = fs.createWriteStream(
+    `${__dirname}/log/access.log`,
+     { flags: 'a' }
+     )
+app.use(morgan("dev"))
+app.use (morgan("common", {stream:accessLogStream })) // "dev" , "conbine", "tiny"
+//app.use(morgan(':method :url :status :res[content-length] - :response-time ms'))
+
+
+
 
 //앱 세팅
 app.set('views', "./src/views")
@@ -17,7 +33,6 @@ app.use(express.static(`${__dirname}/src/public`)); //정적경로
 app.use(bodyParser.json());
 //url을 통해 전달되는 데이터에 한굴 공백 등과 같은 문자가 포함될 경우 제대로 인식되지않는 문제 해결 
 app.use(bodyParser.urlencoded({extended: true}));
-
 app.use('/',home) // use -> 미들웨어를 등록해주는 메서드 
 
 module.exports = app;
@@ -40,3 +55,6 @@ module.exports = app;
 // app.listen(3001,()=>{
 //     console.log("Http 로 가동한 서버");
 // })
+
+
+//로그관리 미들웨어   morgan 
