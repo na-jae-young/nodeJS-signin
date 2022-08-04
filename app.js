@@ -16,13 +16,19 @@ const home = require('./src/routes/home');
 //로그관리
 //morgan
 const accessLogStream = fs.createWriteStream(
-    `${__dirname}/log/access.log`,
+    `${__dirname}/log/access_morgan.log`,
      { flags: 'a' }
      )
 app.use(morgan("dev"))
 app.use (morgan("common", {stream:accessLogStream })) // "dev" , "conbine", "tiny"
 //app.use(morgan(':method :url :status :res[content-length] - :response-time ms'))
 
+//로그관리
+//winston
+const logger = require('./src/config/logger')
+logger.log('info','hihi')// 'info 레벨 로그 
+logger.info("hello") // info 레벨 로그 내용 hello  위에와 같은  기능 
+logger.error("bye")
 
 
 
