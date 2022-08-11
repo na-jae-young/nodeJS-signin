@@ -25,10 +25,10 @@ app.use (morgan("common", {stream:accessLogStream })) // "dev" , "conbine", "tin
 
 //로그관리
 //winston
-const logger = require('./src/config/logger')
-logger.log('info','hihi')// 'info 레벨 로그 
-logger.info("hello") // info 레벨 로그 내용 hello  위에와 같은  기능 
-logger.error("bye")
+// const logger = require('./src/config/logger')
+// logger.log('info','hihi')// 'info 레벨 로그 
+// logger.info("hello") // info 레벨 로그 내용 hello  위에와 같은  기능 
+// logger.error("bye")
 
 
 

@@ -32,6 +32,7 @@ reisterBtn.addEventListener("click",register);
         if(res.success) {
             location.href = "/login";
             } else {
+                if(res.err)return alert(`error 관리자에게 문의 : 2 ${res.err}`)
                 alert(res.message);
             }
         }

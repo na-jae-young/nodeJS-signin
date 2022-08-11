@@ -8,7 +8,10 @@ const loginBtn = document.querySelector('#button')
 
 loginBtn.addEventListener("click",login);
 
- function login() {  
+ function login() { 
+    if(!id.value) return alert('Please enter your ID')
+    if(!psword.value) return alert('Please enter    your password')
+
     const req ={
         id: id.value,
         psword: psword.value
@@ -26,7 +29,7 @@ loginBtn.addEventListener("click",login);
         if(res.success) {
             location.href = "/";
             } else {
-                console.log(res.message);
+                if(res.err) return alert('error 관리자에 문의 : 1')
                 alert(res.message);
             }
         }

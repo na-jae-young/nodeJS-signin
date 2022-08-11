@@ -22,3 +22,171 @@
 2022-08-04 18:05:05 [nodeJS-login] info: hihi
 2022-08-04 18:05:05 [nodeJS-login] info: hello
 2022-08-04 18:05:05 [nodeJS-login] error: bye
+2022-08-04 18:11:08 [nodeJS-login] info: hihi
+2022-08-04 18:11:08 [nodeJS-login] info: hello
+2022-08-04 18:11:08 [nodeJS-login] error: bye
+2022-08-05 09:51:14 [nodeJS-login] info: hihi
+2022-08-05 09:51:14 [nodeJS-login] info: hello
+2022-08-05 09:51:14 [nodeJS-login] error: bye
+2022-08-05 09:51:14 [nodeJS-login] info: 3000 :Server running at http://127.0.0.1:3000
+2022-08-05 09:51:46 [nodeJS-login] info: hihi
+2022-08-05 09:51:46 [nodeJS-login] info: hello
+2022-08-05 09:51:46 [nodeJS-login] error: bye
+2022-08-05 09:51:46 [nodeJS-login] info: 3000PORT :Server running at http://127.0.0.1:3000
+2022-08-05 09:51:54 [nodeJS-login] info: hihi
+2022-08-05 09:51:54 [nodeJS-login] info: hello
+2022-08-05 09:51:54 [nodeJS-login] error: bye
+2022-08-05 09:51:54 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 09:55:59 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 10:33:18 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 10:33:33 [nodeJS-login] info: GET / 200 "HOME 화면으로 이동"
+2022-08-05 10:33:44 [nodeJS-login] info: GET / 200 "LOGIN 화면으로 이동"
+2022-08-05 10:33:52 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 10:33:55 [nodeJS-login] info: GET / 200 "LOGIN 화면으로 이동"
+2022-08-05 10:33:58 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: true, msg: undefined
+2022-08-05 10:33:58 [nodeJS-login] info: GET / 200 "HOME 화면으로 이동"
+2022-08-05 10:35:01 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 10:36:15 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 10:36:28 [nodeJS-login] info: GET / 200 "LOGIN 화면으로 이동"
+2022-08-05 10:36:38 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: true, msg: login successful
+2022-08-05 10:36:38 [nodeJS-login] info: GET / 200 "HOME 화면으로 이동"
+2022-08-05 10:36:48 [nodeJS-login] info: GET / 200 "LOGIN 화면으로 이동"
+2022-08-05 10:36:51 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: false, msg: Login failed : 틀린 password error
+2022-08-05 10:38:16 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 10:38:23 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: true, msg: save success
+2022-08-05 10:38:23 [nodeJS-login] info: GET / 200 "LOGIN 화면으로 이동"
+2022-08-05 10:38:34 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: true, msg: login successful
+2022-08-05 10:38:34 [nodeJS-login] info: GET / 200 "HOME 화면으로 이동"
+2022-08-05 10:38:35 [nodeJS-login] info: GET / 200 "LOGIN 화면으로 이동"
+2022-08-05 10:38:36 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 10:38:41 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: Error: ER_DUP_ENTRY: Duplicate entry 'we' for key 'users.PRIMARY'
+2022-08-05 11:09:10 [nodeJS-login] info: GET / 200 "LOGIN 화면으로 이동"
+2022-08-05 11:09:12 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: false, msg: Login failed : 존재하지 않는 id error
+2022-08-05 11:11:07 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 11:11:09 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 11:11:14 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: false, msg: Login failed : 존재하지 않는 id error
+2022-08-05 11:11:46 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 11:12:25 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: false, msg: Login failed : 존재하지 않는 id error
+2022-08-05 11:12:27 [nodeJS-login] info: GET / 200 "LOGIN 화면으로 이동"
+2022-08-05 12:20:54 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:21:20 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:24:42 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:24:45 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:24:48 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:24:48 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: false, msg: Error: ER_NO_SUCH_TABLE: Table 'login.user' doesn't exist
+2022-08-05 12:25:57 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:26:09 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:26:09 [nodeJS-login] info: GET / 200 "LOGIN 화면으로 이동"
+2022-08-05 12:26:11 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: false, msg: undefined
+2022-08-05 12:26:49 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: false, msg: undefined
+2022-08-05 12:27:04 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:27:04 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: false, msg: Login failed : 틀린 password error
+2022-08-05 12:27:12 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: false, msg: undefined
+2022-08-05 12:29:06 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:29:32 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:29:32 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: false, msg: undefined
+2022-08-05 12:29:35 [nodeJS-login] info: GET / 200 "LOGIN 화면으로 이동"
+2022-08-05 12:29:38 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: false, msg: undefined
+2022-08-05 12:30:13 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:30:14 [nodeJS-login] info: GET / 200 "LOGIN 화면으로 이동"
+2022-08-05 12:30:17 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: false, msg: undefined
+2022-08-05 12:30:20 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: false, msg: undefined
+2022-08-05 12:31:18 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:31:18 [nodeJS-login] info: GET / 200 "LOGIN 화면으로 이동"
+2022-08-05 12:31:20 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: false, msg: Login failed : 존재하지 않는 id error
+2022-08-05 12:31:26 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: false, msg: Login failed : 틀린 password error
+2022-08-05 12:31:40 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:31:42 [nodeJS-login] info: GET / 200 "LOGIN 화면으로 이동"
+2022-08-05 12:31:45 [nodeJS-login] info: POST / LOGIN 200 RESPONSE: false, msg: undefined
+2022-08-05 12:32:01 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:34:32 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:34:36 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:34:52 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:34:53 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 12:35:01 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: Error: ER_NO_SUCH_TABLE: Table 'login.user' doesn't exist
+2022-08-05 12:35:54 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:35:57 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:36:27 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:36:50 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 12:36:54 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: undefined
+2022-08-05 12:37:13 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:38:36 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:38:42 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: true, msg: save success
+2022-08-05 12:38:42 [nodeJS-login] info: GET / 200 "LOGIN 화면으로 이동"
+2022-08-05 12:38:45 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 12:38:51 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 12:42:02 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 12:42:06 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: true, msg: save success
+2022-08-05 12:42:06 [nodeJS-login] info: GET / 200 "LOGIN 화면으로 이동"
+2022-08-05 12:42:08 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 12:42:11 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 12:43:24 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 12:43:28 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 12:44:08 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:44:12 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 12:44:14 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 12:44:17 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 12:44:22 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 12:45:05 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:45:05 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 12:45:05 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 12:45:06 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 12:45:12 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 12:52:25 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:52:29 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 12:53:26 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 12:53:51 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:53:53 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 12:54:01 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:54:01 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: true, msg: save success
+2022-08-05 12:54:01 [nodeJS-login] info: GET / 200 "LOGIN 화면으로 이동"
+2022-08-05 12:54:13 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 12:54:16 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 12:56:04 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 12:56:34 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:57:15 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:57:19 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 12:57:21 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 12:57:44 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:57:46 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 12:58:07 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:58:09 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 12:59:14 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:59:23 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 12:59:28 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 12:59:39 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 12:59:41 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 12:59:46 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 13:00:27 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 13:00:31 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 13:01:45 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 13:01:48 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 13:02:40 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 13:02:42 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 13:07:47 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 13:07:52 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 13:07:57 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 13:07:59 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 13:08:02 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 13:08:18 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 13:08:22 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 13:08:42 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 13:08:43 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 13:10:24 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 13:10:27 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 13:12:28 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 13:12:32 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 13:13:08 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 13:13:10 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 13:13:31 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 13:13:32 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 13:15:26 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 13:15:32 [nodeJS-login] info: GET / 200 "REGISTER 화면으로 이동"
+2022-08-05 13:15:36 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 13:15:49 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 13:15:49 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: error
+2022-08-05 13:17:28 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 13:17:30 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: 존재하는 아이디 입니다.
+2022-08-05 13:17:57 [nodeJS-login] info: 3000 PORT :Server running at http://127.0.0.1:3000
+2022-08-05 13:17:58 [nodeJS-login] info: POST / REGISTER 200 RESPONSE: false, msg: 존재하는 아이디 입니다.
+2022-08-05 13:18:18 [nodeJS-login] info: GET / 200 "LOGIN 화면으로 이동"
